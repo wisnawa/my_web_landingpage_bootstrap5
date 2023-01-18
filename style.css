@@ -15,7 +15,7 @@
   padding-right: 20px;
 }
 /* jumbotron */
-.jumbotron img {
+.jumbotron {
   background-image: url(/img/jumbotron-bg.jpg);
   background-size: cover;
   height: 540px;

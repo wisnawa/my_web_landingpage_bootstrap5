@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    /> -->
+    <!-- offline bootstrap 5 -->
+    <link rel="stylesheet" href="assets_bootstrap5/css/bootstrap.min.css" />
+    <!-- My Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&family=Montserrat:wght@100;200;300;400&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- my style CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">I Putu Gede Wisnawa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="btn btn-primary tombol" href="#">Join US</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- Jumbotron start -->
+    <div class="jumbotron pt-5 mb-4 bg-light">
+      <div class="container-fluid py-5 container">
+        <h1 class="display-4">
+          <p>
+            Get work done <span>faster</span> and <span>better</span> with us.
+          </p>
+        </h1>
+        <a href="" class="btn btn-primary tombol">Out Work</a>
+      </div>
+    </div>
+    <!-- Jumbotron end -->
+    <!-- container start -->
+    <div class="container">
+      <!-- Info Panel start -->
+      <div class="row justify-content-center">
+        <div class="col-10 info-panel">
+          <div class="row">
+            <div class="col-lg">
+              <img src="img/employee.png" alt="employee" class="float-start" />
+              <h4>24 Hours</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/hires.png" alt="hires" class="float-start" />
+              <h4>24 Hours</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/security.png" alt="security" class="float-start" />
+              <h4>24 Hours</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info Panel end -->
+      <!-- working space start -->
+      <div class="row workingspace">
+        <div class="col-lg-6">
+          <img
+            src="img/workingspace.png"
+            alt="workingspace"
+            class="img-fluid float-start"
+          />
+        </div>
+        <div class="col-lg-5">
+          <h3 class="workingspace-style">
+            You <span>work</span> like at <span>home</span>
+          </h3>
+          <p>
+            Bekerja dengan suasana hati yang lebih asik dan mempelajari hal yang
+            baru setiap harinya.
+          </p>
+          <a href="" class="btn btn-primary tombol workingspace-style"
+            >GAllery</a
+          >
+        </div>
+      </div>
+      <!-- working space end -->
+      <!-- testimonial start -->
+      <section class="testimonial">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h5>
+              "Bekerja dengan suasana hati yang lebih asik dan mempelajari hal
+              yang baru setiap harinya."
+            </h5>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 d-flex justify-content-center">
+            <figure class="figure">
+              <img
+                src="img/img1.png"
+                class="figure-img img-fluid rounded-circle"
+                alt="testi1"
+              />
+            </figure>
+            <figure class="figure">
+              <img
+                src="img/img2.png"
+                class="figure-img img-fluid rounded-circle utama"
+                alt="testi2"
+              />
+              <figcaption class="figure-caption">
+                <h5>Sunny Ye</h5>
+                <p>Designer</p>
+              </figcaption>
+            </figure>
+            <figure class="figure">
+              <img
+                src="img/img3.png"
+                class="figure-img img-fluid rounded-circle"
+                alt="testi3"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial end -->
+      <!-- footer start -->
+      <div class="row footer">
+        <div class="col text-center">
+          <p>2023 All Right Reserved by I Putu Gede Wisnawa</p>
+        </div>
+      </div>
+      <!-- footer end -->
+    </div>
+    <!-- container end -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- offline bootstrap 5 JS -->
+    <script src="assets_bootstrap5/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
